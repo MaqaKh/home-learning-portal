@@ -1,1029 +1,331 @@
-﻿<!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Sign Up</title>
+  <link rel="icon" href="./images/logo.ico" type="image/png"/>
+  <title>Signup</title>
 
-    <!-- Prevent the demo from appearing in search engines -->
-    <meta name="robots" content="noindex">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/main.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CRoboto:400,500%7CExo+2:600&display=swap" rel="stylesheet">
-
-    <!-- Perfect Scrollbar -->
-    <link type="text/css" href="assets\vendor\perfect-scrollbar.css" rel="stylesheet">
-
-    <!-- Fix Footer CSS -->
-    <link type="text/css" href="assets\vendor\fix-footer.css" rel="stylesheet">
-
-    <!-- Material Design Icons -->
-    <link type="text/css" href="assets\css\material-icons.css" rel="stylesheet">
-
-
-    <!-- Font Awesome Icons -->
-    <link type="text/css" href="assets\css\fontawesome.css" rel="stylesheet">
-
-
-    <!-- Preloader -->
-    <link type="text/css" href="assets\css\preloader.css" rel="stylesheet">
-
-
-    <!-- App CSS -->
-    <link type="text/css" href="assets\css\app.css" rel="stylesheet">
-
-
-
-
-
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="signUp.css">
+  <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,500i,700,800i" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#" >
+            <img src="./images/lfh logo.png" alt="logo" class="logo" ></a>
+        <a class="navbar-brand" href="#"><b>LEARN FROM HOME</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><b>HOME</b><span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><b>ABOUT</b></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <b> COURSES</b>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">COURSE 1</a>
+                <a class="dropdown-item" href="#">COURSE 2</a>
+                  <a class="dropdown-item" href="#">COURSE 3</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <b>STUDY MATERIALS</b>
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">NCERT SOLUTION</a>
+              <a class="dropdown-item" href="#">CBSE EXAM PAPERS</a>
+              <a class="dropdown-item" href="#">JEE NOTES</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <b> MORE</b>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">OUR BLOG</a>
+                <a class="dropdown-item" href="#">CONTACT</a>
+                  <a class="dropdown-item" href="#">FAQS</a>
 
 
+            </div>
+          </li>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<body class="layout-sticky-subnav layout-default ">
-
-    <div class="preloader">
-        <div class="sk-double-bounce">
-            <div class="sk-child sk-double-bounce1"></div>
-            <div class="sk-child sk-double-bounce2"></div>
+      <div class="dropdown" style="padding-right: 30px;">
+        <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Explore
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">My Dashboard</a>
+          <a class="dropdown-item" href="#">My Account</a>
+          <a class="dropdown-item" href="#">Ongoing Classes</a>
+          <a class="dropdown-item" href="#">My Invoice</a>
+          <a class="dropdown-item" href="#">Log Out</a>
         </div>
-    </div>
-
-    <!-- Header Layout -->
-    <div class="mdk-header-layout js-mdk-header-layout">
-
-        <!-- Header -->
-
-        <div id="header" class="mdk-header js-mdk-header mb-0" data-fixed="" data-effects="">
-            <div class="mdk-header__content">
+      </div>
 
 
 
-                <div class="navbar navbar-expand navbar-dark-dodger-blue navbar-shadow" id="default-navbar" data-primary="">
+        </ul>
+    <!--    <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
+      </div>
+    </nav>
 
-                    <!-- Navbar toggler -->
-                    <button class="navbar-toggler w-auto mr-16pt d-block rounded-0" type="button" data-toggle="sidebar">
-                        <span class="material-icons">short_text</span>
-                    </button>
+  <!--  <nav class="navbar navbar-expand-sm   navbar-dark bg-dark fixed-nav-bar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-                    <!-- Navbar Brand -->
-                    <a href="fixed-index.html" class="navbar-brand mr-16pt">
-                        <!-- <img class="navbar-brand-icon" src="assets/images/logo/white-100@2x.png" width="30" alt="Luma"> -->
-
-                        <span class="avatar avatar-sm navbar-brand-icon mr-0 mr-lg-8pt">
-
-                            <span class="avatar-title rounded bg-primary"><img src="assets\images\illustration\student\128\white.svg" alt="logo" class="img-fluid"></span>
-
-                        </span>
-
-                        <span class="d-none d-lg-block">Luma</span>
-                    </a>
-
-
-
-                    <ul class="nav navbar-nav d-none d-sm-flex flex justify-content-left">
-                        <li class="nav-item active">
-                            <a href="fixed-index.html" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="fixed-pricing.html" class="nav-link">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="fixed-blog.html" class="nav-link">Blog</a>
-                        </li>
-                    </ul>
-
-
-
-
-
-
-                    <ul class="nav navbar-nav ml-auto mr-0">
-                        <li class="nav-item">
-                            <a href="fixed-login.html" class="nav-link" data-toggle="tooltip" data-title="Login" data-placement="bottom" data-boundary="window"><i class="material-icons">lock_open</i></a>
-                        </li>
-                        <li class="nav-item active">
-                            <a href="fixed-signup.html" class="btn btn-outline-white">Get Started</a>
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- // END Header -->
-
-        <!-- Header Layout Content -->
-        <div class="mdk-header-layout__content page-content ">
-
-
-
-
-
-
-
-
-
-
-            <div class="py-32pt navbar-submenu">
-                <div class="container page__container">
-                    <div class="progression-bar progression-bar--active-accent">
-                        <a href="pricing.html" class="progression-bar__item progression-bar__item--complete">
-                            <span class="progression-bar__item-content">
-                              <!--   <i class="material-icons progression-bar__item-icon">done</i>
-                                <span class="progression-bar__item-text h5 mb-0 text-uppercase">Pricing</span> -->
-                            </span>
-                        </a>
-                        <a href="fixed-signup.html" class="progression-bar__item progression-bar__item--complete">
-                            <span class="progression-bar__item-content">
-                                <i class="material-icons progression-bar__item-icon"></i>
-                                <span class="progression-bar__item-text h5 mb-0 text-uppercase">Account details</span>
-                            </span>
-                        </a>
-                        <a href="fixed-signup-payment.html" class="progression-bar__item progression-bar__item--complete">
-                            <span class="progression-bar__item-content">
-                               <!--  <i class="material-icons progression-bar__item-icon"></i>
-                                <span class="progression-bar__item-text h5 mb-0 text-uppercase">Payment details</span> -->
-                            </span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-            <div class="page-section container page__container">
-                <div class="col-lg-10 p-0 mx-auto">
-                    <div class="row">
-                        <div class="col-md-12 mb-24pt mb-md-0">
-                            <form action="fixed-signup-payment.html">
-                                <div class="form-group">
-                                    <label class="form-label" for="name">Your first and last name:</label>
-                                    <input id="name" type="text" class="form-control" placeholder="Your first and last name ...">
-                                </div>
-                                <div class="form-group">
-                                    <label class="form-label" for="email">Your email:</label>
-                                    <input id="email" type="email" class="form-control" placeholder="Your email address ...">
-                                </div>
-                                <div class="form-group mb-24pt">
-                                    <label class="form-label" for="password">Password:</label>
-                                    <input id="password" type="password" class="form-control" placeholder="Your password ...">
-                                </div>
-                                <button class="btn btn-primary">Create account</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="page-separator justify-content-center m-0">
-                <div class="page-separator__text">or sign-in with</div>
-            </div>
-            <div class="page-section text-center">
-                <div class="container page__container">
-                    <a href="fixed-signup-payment.html" class="btn btn-secondary btn-block-xs">Facebook</a>
-                    <a href="fixed-signup-payment.html" class="btn btn-secondary btn-block-xs">Twitter</a>
-                    <a href="fixed-signup-payment.html" class="btn btn-secondary btn-block-xs">Google+</a>
-                </div>
-            </div>
-
-
-
-
-
-        </div>
-        <!-- // END Header Layout Content -->
-
-
-        <div class="js-fix-footer2 bg-white border-top-2">
-            <div class="container page__container page-section d-flex flex-column">
-                <p class="text-70 brand mb-24pt">
-                    <img class="brand-icon" src="assets\images\logo\black-70@2x.png" width="30" alt="Luma"> Luma
-                </p>
-                <p class="measure-lead-max text-50 small mr-8pt">Luma is a beautifully crafted user interface for modern Education Platforms, including Courses & Tutorials, Video Lessons, Student and Teacher Dashboard, Curriculum Management, Earnings and Reporting, ERP, HR, CMS, Tasks, Projects, eCommerce and more.</p>
-                <p class="mb-8pt d-flex">
-                    <a href="" class="text-70 text-underline mr-8pt small">Terms</a>
-                    <a href="" class="text-70 text-underline small">Privacy policy</a>
-                </p>
-                <p class="text-50 small mt-n1 mb-0">Copyright 2019 &copy; All rights reserved.</p>
-            </div>
-        </div>
-
-
-    </div>
-    <!-- // END Header Layout -->
-
-
-
-
-    <!-- drawer -->
-    <div class="mdk-drawer js-mdk-drawer" id="default-drawer">
-        <div class="mdk-drawer__content">
-            <div class="sidebar sidebar-dark-dodger-blue sidebar-left" data-perfect-scrollbar="">
-
-
-                <div class="d-flex align-items-center navbar-height">
-                    <form action="fixed-index.html" class="search-form search-form--black mx-16pt pr-0 pl-16pt">
-                        <input type="text" class="form-control pl-0" placeholder="Search">
-                        <button class="btn" type="submit"><i class="material-icons">search</i></button>
-                    </form>
-                </div>
-
-
-
-                <a href="fixed-index.html" class="sidebar-brand ">
-                    <!-- <img class="sidebar-brand-icon" src="assets/images/illustration/student/128/white.svg" alt="Luma"> -->
-
-                    <span class="avatar avatar-xl sidebar-brand-icon h-auto">
-
-                        <span class="avatar-title rounded bg-primary"><img src="assets\images\illustration\student\128\white.svg" class="img-fluid" alt="logo"></span>
-
-                    </span>
-
-                    <span>Luma</span>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item" >
+              <a class="nav-link" style="width: 130px;height:28px;padding-left:5px;" href="#"><img src="./images/nameonly.png" style="width:130px;height:28px;padding-left:10px;"> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item" >
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown dmenu" style="padding-right: 30px">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Courses
                 </a>
+                <div class="dropdown-menu sm-menu" aria-labelledby="navbardrop">
+                  <a class="dropdown-item" href="#">Course 1</a>
+                  <a class="dropdown-item" href="#">Course 2</a>
+                  <a class="dropdown-item" href="#">Course 3</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown dmenu" style="padding-right: 30px">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Study Material
+                </a>
+                <div class="dropdown-menu sm-menu" aria-labelledby="navbardrop">
+                  <a class="dropdown-item" href="#">Material 1</a>
+                  <a class="dropdown-item" href="#">Material 2</a>
+                  <a class="dropdown-item" href="#">Material 3</a>
 
 
 
+                </div>
+              </li>
+              <li class="nav-item dropdown dmenu" style="padding-right: 30px">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  More
+                </a>
+                <div class="dropdown-menu sm-menu" aria-labelledby="navbardrop">
+                  <a class="dropdown-item" href="#">Our Blog</a>
+                  <a class="dropdown-item" href="#">Contact Us</a>
+                  <a class="dropdown-item" href="#">FAQs</a>
+                </div>
+              </li>
+          </ul>
+          <div class="social-part">
+            <i class="fa fa-facebook fa-2x" style="color:white;padding-right: 20px;" aria-hidden="true"></i>
+            <i class="fa fa-twitter fa-2x" style="color:white;padding-right: 20px;" aria-hidden="true"></i>
+            <i class="fa fa-instagram fa-2x" style="color:white" aria-hidden="true"></i>
+          </div>
+        </div>
+      </nav> -->
 
+<!--NAVBAR-->
+ <!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#" >
+            <img src="lfh logo.svg" alt="logo" class="logo" ></a>
+        <a class="navbar-brand" href="#"><b>LEARN FROM HOME</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><b>HOME</b><span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><b>ABOUT</b></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <b> COURSES</b>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">COURSE 1</a>
+                <a class="dropdown-item" href="#">COURSE 2</a>
+                  <a class="dropdown-item" href="#">COURSE 3</a>
+            </div>
+          </li>
 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <b>STUDY MATERIALS</b>
+            </a>
 
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">NCERT SOLUTION</a>
+              <a class="dropdown-item" href="#">CBSE EXAM PAPERS</a>
+              <a class="dropdown-item" href="#">JEE NOTES</a>
+            </div>
+          </li>
 
-                <div class="sidebar-heading">Applications</div>
-                <ul class="sidebar-menu">
-
-                    <li class="sidebar-menu-item">
-                        <a class="sidebar-menu-button js-sidebar-collapse" data-toggle="collapse" href="#student_menu">
-                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">school</span>
-                            Student
-                            <span class="ml-auto sidebar-menu-toggle-icon"></span>
-                        </a>
-                        <ul class="sidebar-submenu collapse sm-indent" id="student_menu">
-
-
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-index.html">
-
-                                    <span class="sidebar-menu-text">Home</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-courses.html">
-
-                                    <span class="sidebar-menu-text">Browse Courses</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-paths.html">
-
-                                    <span class="sidebar-menu-text">Browse Paths</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-student-dashboard.html">
-
-                                    <span class="sidebar-menu-text">Student Dashboard</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-student-my-courses.html">
-
-                                    <span class="sidebar-menu-text">My Courses</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-student-paths.html">
-
-                                    <span class="sidebar-menu-text">My Paths</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-student-path.html">
-
-                                    <span class="sidebar-menu-text">Path Details</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-student-course.html">
-
-                                    <span class="sidebar-menu-text">Course Preview</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-student-lesson.html">
-
-                                    <span class="sidebar-menu-text">Lesson Preview</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-student-take-course.html">
-
-                                    <span class="sidebar-menu-text">Take Course</span>
-                                    <span class="sidebar-menu-badge badge badge-accent badge-notifications ml-auto">PRO</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-student-take-lesson.html">
-
-                                    <span class="sidebar-menu-text">Take Lesson</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-student-take-quiz.html">
-
-                                    <span class="sidebar-menu-text">Take Quiz</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-student-quiz-results.html">
-
-                                    <span class="sidebar-menu-text">My Quizzes</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-student-quiz-result-details.html">
-
-                                    <span class="sidebar-menu-text">Quiz Result</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-student-path-assessment.html">
-
-                                    <span class="sidebar-menu-text">Skill Assessment</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-student-path-assessment-result.html">
-
-                                    <span class="sidebar-menu-text">Skill Result</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-student-profile.html">
-
-                                    <span class="sidebar-menu-text">Student Profile</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-student-help-center.html">
-
-                                    <span class="sidebar-menu-text">Help Center</span>
-                                </a>
-                            </li>
-
-                        </ul>
-                    </li>
-                    <li class="sidebar-menu-item">
-                        <a class="sidebar-menu-button js-sidebar-collapse" data-toggle="collapse" href="#instructor_menu">
-                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">format_shapes</span>
-                            Instructor
-                            <span class="ml-auto sidebar-menu-toggle-icon"></span>
-                        </a>
-                        <ul class="sidebar-submenu collapse sm-indent" id="instructor_menu">
-
-
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-instructor-dashboard.html">
-
-                                    <span class="sidebar-menu-text">Instructor Dashboard</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-instructor-courses.html">
-
-                                    <span class="sidebar-menu-text">Manage Courses</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-instructor-quizzes.html">
-
-                                    <span class="sidebar-menu-text">Manage Quizzes</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-instructor-earnings.html">
-
-                                    <span class="sidebar-menu-text">Earnings</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-instructor-statement.html">
-
-                                    <span class="sidebar-menu-text">Statement</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-instructor-edit-course.html">
-
-                                    <span class="sidebar-menu-text">Edit Course</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-instructor-edit-quiz.html">
-
-                                    <span class="sidebar-menu-text">Edit Quiz</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-instructor-profile.html">
-
-                                    <span class="sidebar-menu-text">Instructor Profile</span>
-                                </a>
-                            </li>
-
-                        </ul>
-                    </li>
-
-                    <li class="sidebar-menu-item">
-                        <a class="sidebar-menu-button js-sidebar-collapse" data-toggle="collapse" href="#enterprise_menu">
-                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">donut_large</span>
-                            Enterprise
-                            <span class="ml-auto sidebar-menu-toggle-icon"></span>
-                        </a>
-                        <ul class="sidebar-submenu collapse sm-indent" id="enterprise_menu">
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-erp-dashboard.html">
-                                    <span class="sidebar-menu-text">ERP Dashboard</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-crm-dashboard.html">
-                                    <span class="sidebar-menu-text">CRM Dashboard</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-hr-dashboard.html">
-                                    <span class="sidebar-menu-text">HR Dashboard</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-employees.html">
-                                    <span class="sidebar-menu-text">Employees</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-staff.html">
-                                    <span class="sidebar-menu-text">Staff</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-leaves.html">
-                                    <span class="sidebar-menu-text">Leaves</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button disabled" href="fixed-departments.html">
-                                    <span class="sidebar-menu-text">Departments</span>
-                                </a>
-                            </li>
-                            <!-- <li class="sidebar-menu-item">
-  <a class="sidebar-menu-button disabled" href="fixed-documents.html">
-    <span class="sidebar-menu-text">Documents</span>
-  </a>
-</li>
-<li class="sidebar-menu-item">
-  <a class="sidebar-menu-button disabled" href="fixed-attendance.html">
-    <span class="sidebar-menu-text">Attendance</span>
-  </a>
-</li>
-<li class="sidebar-menu-item">
-  <a class="sidebar-menu-button disabled" href="fixed-recruitment.html">
-    <span class="sidebar-menu-text">Recruitment</span>
-  </a>
-</li>
-<li class="sidebar-menu-item">
-  <a class="sidebar-menu-button disabled" href="fixed-payroll.html">
-    <span class="sidebar-menu-text">Payroll</span>
-  </a>
-</li>
-<li class="sidebar-menu-item">
-  <a class="sidebar-menu-button disabled" href="fixed-training.html">
-    <span class="sidebar-menu-text">Training</span>
-  </a>
-</li>
-<li class="sidebar-menu-item">
-  <a class="sidebar-menu-button disabled" href="fixed-employee-profile.html">
-    <span class="sidebar-menu-text">Employee Profile</span>
-  </a>
-</li>
-<li class="sidebar-menu-item">
-  <a class="sidebar-menu-button disabled" href="fixed-accounting.html">
-    <span class="sidebar-menu-text">Accounting</span>
-  </a>
-</li>
-<li class="sidebar-menu-item">
-  <a class="sidebar-menu-button disabled" href="fixed-inventory.html">
-    <span class="sidebar-menu-text">Inventory</span>
-  </a>
-</li> -->
-                        </ul>
-                    </li>
-                    <li class="sidebar-menu-item">
-                        <a class="sidebar-menu-button" data-toggle="collapse" href="#productivity_menu">
-                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">access_time</span>
-                            Productivity
-                            <span class="ml-auto sidebar-menu-toggle-icon"></span>
-                        </a>
-                        <ul class="sidebar-submenu collapse sm-indent" id="productivity_menu">
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-projects.html">
-                                    <span class="sidebar-menu-text">Projects</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-tasks-board.html">
-                                    <span class="sidebar-menu-text">Tasks Board</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-tasks-list.html">
-                                    <span class="sidebar-menu-text">Tasks List</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button disabled" href="fixed-kanban.html">
-                                    <span class="sidebar-menu-text">Kanban</span>
-                                </a>
-                            </li>
-                            <!-- <li class="sidebar-menu-item">
-  <a class="sidebar-menu-button disabled" href="fixed-task-details.html">
-    <span class="sidebar-menu-text">Task Details</span>
-  </a>
-</li>
-<li class="sidebar-menu-item">
-  <a class="sidebar-menu-button disabled" href="fixed-team-members.html">
-    <span class="sidebar-menu-text">Team Members</span>
-  </a>
-</li> -->
-                        </ul>
-                    </li>
-                    <li class="sidebar-menu-item">
-                        <a class="sidebar-menu-button" data-toggle="collapse" href="#ecommerce_menu">
-                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">shopping_cart</span>
-                            eCommerce
-                            <span class="ml-auto sidebar-menu-toggle-icon"></span>
-                        </a>
-                        <ul class="sidebar-submenu collapse sm-indent" id="ecommerce_menu">
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ecommerce.html">
-                                    <span class="sidebar-menu-text">Shop Dashboard</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button disabled" href="fixed-edit-product.html">
-                                    <span class="sidebar-menu-text">Edit Product</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="sidebar-menu-item">
-                        <a class="sidebar-menu-button" data-toggle="collapse" href="#messaging_menu">
-                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">message</span>
-                            Messaging
-                            <span class="sidebar-menu-badge badge badge-accent badge-notifications ml-auto">2</span>
-                            <span class="sidebar-menu-toggle-icon"></span>
-                        </a>
-                        <ul class="sidebar-submenu collapse sm-indent" id="messaging_menu">
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-messages.html">
-                                    <span class="sidebar-menu-text">Messages</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-email.html">
-                                    <span class="sidebar-menu-text">Email</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="sidebar-menu-item">
-                        <a class="sidebar-menu-button" data-toggle="collapse" href="#cms_menu">
-                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">content_copy</span>
-                            CMS
-                            <span class="ml-auto sidebar-menu-toggle-icon"></span>
-                        </a>
-                        <ul class="sidebar-submenu collapse sm-indent" id="cms_menu">
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-cms-dashboard.html">
-                                    <span class="sidebar-menu-text">CMS Dashboard</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-posts.html">
-                                    <span class="sidebar-menu-text">Posts</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="sidebar-menu-item active open">
-                        <a class="sidebar-menu-button" data-toggle="collapse" href="#account_menu">
-                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">account_box</span>
-                            Account
-                            <span class="ml-auto sidebar-menu-toggle-icon"></span>
-                        </a>
-                        <ul class="sidebar-submenu collapse show sm-indent" id="account_menu">
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-pricing.html">
-                                    <span class="sidebar-menu-text">Pricing</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-login.html">
-                                    <span class="sidebar-menu-text">Login</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item active">
-                                <a class="sidebar-menu-button" href="fixed-signup.html">
-                                    <span class="sidebar-menu-text">Signup</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-signup-payment.html">
-                                    <span class="sidebar-menu-text">Payment</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-reset-password.html">
-                                    <span class="sidebar-menu-text">Reset Password</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-change-password.html">
-                                    <span class="sidebar-menu-text">Change Password</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-edit-account.html">
-                                    <span class="sidebar-menu-text">Edit Account</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-edit-account-profile.html">
-                                    <span class="sidebar-menu-text">Profile &amp; Privacy</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-edit-account-notifications.html">
-                                    <span class="sidebar-menu-text">Email Notifications</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-edit-account-password.html">
-                                    <span class="sidebar-menu-text">Account Password</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-billing.html">
-                                    <span class="sidebar-menu-text">Subscription</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-billing-upgrade.html">
-                                    <span class="sidebar-menu-text">Upgrade Account</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-billing-payment.html">
-                                    <span class="sidebar-menu-text">Payment Information</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-billing-history.html">
-                                    <span class="sidebar-menu-text">Payment History</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-billing-invoice.html">
-                                    <span class="sidebar-menu-text">Invoice</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="sidebar-menu-item">
-                        <a class="sidebar-menu-button" data-toggle="collapse" href="#community_menu">
-                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">people_outline</span>
-                            Community
-                            <span class="ml-auto sidebar-menu-toggle-icon"></span>
-                        </a>
-                        <ul class="sidebar-submenu collapse sm-indent" id="community_menu">
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-faq.html">
-                                    <span class="sidebar-menu-text">FAQ</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-discussions.html">
-                                    <span class="sidebar-menu-text">Discussions</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-discussion.html">
-                                    <span class="sidebar-menu-text">Discussion Details</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-discussions-ask.html">
-                                    <span class="sidebar-menu-text">Ask Question</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-
-                <div class="sidebar-heading">UI</div>
-                <ul class="sidebar-menu">
-                    <li class="sidebar-menu-item">
-                        <a class="sidebar-menu-button" data-toggle="collapse" href="#components_menu">
-                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">tune</span>
-                            Components
-                            <span class="ml-auto sidebar-menu-toggle-icon"></span>
-                        </a>
-                        <ul class="sidebar-submenu collapse sm-indent" id="components_menu">
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ui-buttons.html">
-                                    <span class="sidebar-menu-text">Buttons</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ui-avatars.html">
-                                    <span class="sidebar-menu-text">Avatars</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ui-forms.html">
-                                    <span class="sidebar-menu-text">Forms</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ui-loaders.html">
-                                    <span class="sidebar-menu-text">Loaders</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ui-tables.html">
-                                    <span class="sidebar-menu-text">Tables</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ui-cards.html">
-                                    <span class="sidebar-menu-text">Cards</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ui-icons.html">
-                                    <span class="sidebar-menu-text">Icons</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ui-tabs.html">
-                                    <span class="sidebar-menu-text">Tabs</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ui-alerts.html">
-                                    <span class="sidebar-menu-text">Alerts</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ui-badges.html">
-                                    <span class="sidebar-menu-text">Badges</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ui-progress.html">
-                                    <span class="sidebar-menu-text">Progress</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ui-pagination.html">
-                                    <span class="sidebar-menu-text">Pagination</span>
-                                </a>
-                            </li>
-                            <!-- <li class="sidebar-menu-item">
-  <a class="sidebar-menu-button disabled" href="fixed-ui-typography.html">
-    <span class="sidebar-menu-text">Typography</span>
-  </a>
-</li>
-<li class="sidebar-menu-item">
-  <a class="sidebar-menu-button disabled" href="fixed-ui-colors.html">
-    <span class="sidebar-menu-text">Colors</span>
-  </a>
-</li>
-<li class="sidebar-menu-item">
-  <a class="sidebar-menu-button disabled" href="fixed-ui-breadcrumb.html">
-    <span class="sidebar-menu-text">Breadcrumb</span>
-  </a>
-</li>
-<li class="sidebar-menu-item">
-  <a class="sidebar-menu-button disabled" href="fixed-ui-accordions.html">
-    <span class="sidebar-menu-text">Accordions</span>
-  </a>
-</li>
-<li class="sidebar-menu-item">
-  <a class="sidebar-menu-button disabled" href="fixed-ui-modals.html">
-    <span class="sidebar-menu-text">Modals</span>
-  </a>
-</li>
-<li class="sidebar-menu-item">
-  <a class="sidebar-menu-button disabled" href="fixed-ui-chips.html">
-    <span class="sidebar-menu-text">Chips</span>
-  </a>
-</li> -->
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button disabled" href="">
-                                    <span class="sidebar-menu-text">Disabled</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="sidebar-menu-item">
-                        <a class="sidebar-menu-button" data-toggle="collapse" href="#plugins_menu">
-                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">folder</span>
-                            Plugins
-                            <span class="ml-auto sidebar-menu-toggle-icon"></span>
-                        </a>
-                        <ul class="sidebar-submenu collapse sm-indent" id="plugins_menu">
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ui-plugin-charts.html">
-                                    <span class="sidebar-menu-text">Charts</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ui-plugin-flatpickr.html">
-                                    <span class="sidebar-menu-text">Flatpickr</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ui-plugin-daterangepicker.html">
-                                    <span class="sidebar-menu-text">Date Range Picker</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ui-plugin-dragula.html">
-                                    <span class="sidebar-menu-text">Dragula</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ui-plugin-dropzone.html">
-                                    <span class="sidebar-menu-text">Dropzone</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ui-plugin-range-sliders.html">
-                                    <span class="sidebar-menu-text">Range Sliders</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ui-plugin-quill.html">
-                                    <span class="sidebar-menu-text">Quill</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ui-plugin-select2.html">
-                                    <span class="sidebar-menu-text">Select2</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ui-plugin-nestable.html">
-                                    <span class="sidebar-menu-text">Nestable</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ui-plugin-fancytree.html">
-                                    <span class="sidebar-menu-text">Fancy Tree</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ui-plugin-maps-vector.html">
-                                    <span class="sidebar-menu-text">Vector Maps</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ui-plugin-sweet-alert.html">
-                                    <span class="sidebar-menu-text">Sweet Alert</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="fixed-ui-plugin-toastr.html">
-                                    <span class="sidebar-menu-text">Toastr</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button disabled" href="">
-                                    <span class="sidebar-menu-text">Disabled</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="sidebar-menu-item">
-                        <a class="sidebar-menu-button" data-toggle="collapse" href="#layouts_menu">
-                            <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">view_compact</span>
-                            Layouts
-                            <span class="ml-auto sidebar-menu-toggle-icon"></span>
-                        </a>
-                        <ul class="sidebar-submenu collapse sm-indent" id="layouts_menu">
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="compact-signup.html">
-                                    <span class="sidebar-menu-text">Compact</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="mini-signup.html">
-                                    <span class="sidebar-menu-text">Mini</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="mini-secondary-signup.html">
-                                    <span class="sidebar-menu-text">Mini + Secondary</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="signup.html">
-                                    <span class="sidebar-menu-text">App</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="boxed-signup.html">
-                                    <span class="sidebar-menu-text">Boxed</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item">
-                                <a class="sidebar-menu-button" href="sticky-signup.html">
-                                    <span class="sidebar-menu-text">Sticky</span>
-                                </a>
-                            </li>
-                            <li class="sidebar-menu-item active">
-                                <a class="sidebar-menu-button" href="fixed-signup.html">
-                                    <span class="sidebar-menu-text">Fixed</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <b> MORE</b>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">OUR BLOG</a>
+                <a class="dropdown-item" href="#">CONTACT</a>
+                  <a class="dropdown-item" href="#">FAQS</a>
 
 
             </div>
+          </li>
+
+      <div class="dropdown" style="padding-right: 30px;">
+        <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Explore
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">My Dashboard</a>
+          <a class="dropdown-item" href="#">My Account</a>
+          <a class="dropdown-item" href="#">Ongoing Classes</a>
+          <a class="dropdown-item" href="#">My Invoice</a>
+          <a class="dropdown-item" href="#">Log Out</a>
         </div>
+      </div>
+
+      <div class="social-part">
+        <i class="fa fa-facebook fa-2x" style="color:white;padding-right: 20px;" aria-hidden="true"></i>
+        <i class="fa fa-twitter fa-2x" style="color:white;padding-right: 20px;" aria-hidden="true"></i>
+        <i class="fa fa-instagram fa-2x" style="color:white" aria-hidden="true"></i>
+      </div>
+
+
+        </ul>
+    <!--    <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
+      </div>
+    </nav>
+
+<!--END OF NAVBAR-->
+
+
+      <div class="signup-form" style="padding: 30px;">
+        <form action="/examples/actions/confirmation.php" method="post">
+          <p style="border-bottom: 1px solid #e0e0e0;padding-bottom: 4px;"><img src="./images/logo.png" style="width:70px;height:70px;margin-left:80px;">
+            <img src="./images/name.png" style="width:190px;height:40px;padding-left:2px;"></p>
+            <h2 style="text-align: center;color:cornflowerblue">Sign up</h2>
+            <p class="hint-text" style="text-align: center;">Sign up with your social media account</p>
+            <div class="social-btn text-center">
+                <a href="#" class="btn btn-primary btn-lg" style="font-family: 'Montserrat', sans-serif;"><i class="fa fa-facebook"></i> Facebook</a>
+                <a href="#" class="btn btn-info btn-lg" style="font-family: 'Montserrat', sans-serif;"><i class="fa fa-twitter"></i> Twitter</a>
+                <a href="#" class="btn btn-danger btn-lg" style="font-family: 'Montserrat', sans-serif;"><i class="fa fa-google"></i> Google</a>
+            </div>
+            <div class="or-seperator" style="font-family: 'Raleway', sans-serif;"><b>or</b></div>
+            <div class="form-group">
+                <input type="text" class="form-control input-lg" name="username" placeholder="Username" required="required">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control input-lg" name="email" placeholder="Email Address" required="required">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control input-lg" name="password" placeholder="Password" required="required">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control input-lg" name="confirm_password" placeholder="Confirm Password" required="required">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-success btn-lg btn-block signup-btn" style="font-family: 'Montserrat', sans-serif;">Sign Up</button>
+            </div>
+        </form>
+        <div class="text-center">Already have an account? <a href="#">Login here</a></div>
     </div>
-    <!-- // END drawer -->
 
 
-    <!-- jQuery -->
-    <script src="assets\vendor\jquery.min.js"></script>
+    <!-- footer -->
 
-    <!-- Bootstrap -->
-    <script src="assets\vendor\popper.min.js"></script>
-    <script src="assets\vendor\bootstrap.min.js"></script>
-
-    <!-- Perfect Scrollbar -->
-    <script src="assets\vendor\perfect-scrollbar.min.js"></script>
-
-    <!-- DOM Factory -->
-    <script src="assets\vendor\dom-factory.js"></script>
-
-    <!-- MDK -->
-    <script src="assets\vendor\material-design-kit.js"></script>
-
-    <!-- Fix Footer -->
-    <script src="assets\vendor\fix-footer.js"></script>
-
-    <!-- App JS -->
-    <script src="assets\js\app.js"></script>
-
-
-
+  	<section id="footer">
+  		<div class="foot">
+  			<div class="row text-center text-xs-center text-sm-left text-md-left" style="padding-left: 10%;">
+  				<div class="col-xs-12 col-sm-4 col-md-4">
+  					<h5>Services</h5>
+  					<ul class="list-unstyled quick-links">
+  						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+  						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+  						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+  						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+  						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+  					</ul>
+  				</div>
+  				<div class="col-xs-12 col-sm-4 col-md-4">
+  					<h5>Support</h5>
+  					<ul class="list-unstyled quick-links">
+  						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+  						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+  						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+  						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+  						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+  					</ul>
+  				</div>
+  				<div class="col-xs-12 col-sm-4 col-md-4">
+  					<h5>Quick links</h5>
+  					<ul class="list-unstyled quick-links">
+  						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+  						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+  						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+  						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+  						<li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+  					</ul>
+  				</div>
+  			</div>
+  			<div class="row">
+  				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+  					<ul class="list-unstyled list-inline social text-center">
+  						<li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+  						<li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+  						<li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+  						<li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+  						<li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-envelope"></i></a></li>
+  					</ul>
+  				</div>
+  				</hr>
+  			</div>
+  			<div class="row">
+  				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+  					<!-- <p><u><a href="https://www.nationaltransaction.com/">National Transaction Corporation</a></u> is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p> -->
+  					<!-- <p class="h6">&copy; 2020 Learn From Home &middot;<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Sunlimetech</a></p> -->
+  					<p class="h6">&copy; 2020 Learn From Home &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  				</div>
+  				</hr>
+  			</div>
+  		</div>
+  	</section>
 
 </body>
-
 </html>
